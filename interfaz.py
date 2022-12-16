@@ -6,15 +6,14 @@
 
 imagenes = [
     '''    
-    |   |
+    |---|
         |
         |
         |
-        |
-        =''',
+        =''',      
     '''
     
-    |   |
+    |---|
     O   |
         |
         |
@@ -22,7 +21,7 @@ imagenes = [
         =''',
     '''
     
-    |   |
+    |---|
     O   |
     |   |
         |
@@ -30,7 +29,7 @@ imagenes = [
         =''',
     '''
     
-    |   |
+    |---|
     O   |
    /|   |
         |
@@ -38,7 +37,7 @@ imagenes = [
         =''',
     '''
     
-    |   |
+    |---|
     O   |
    /|\  |
         |
@@ -46,7 +45,7 @@ imagenes = [
         =''',
     '''
    
-    |   |
+    |---|
     O   |
    /|\  |
     |   |
@@ -54,7 +53,7 @@ imagenes = [
         =''',
     '''
     
-    |   |
+    |---|
     O   |
    /|\  |
     |   |
@@ -62,7 +61,7 @@ imagenes = [
         =''',
     '''
     
-    |   |
+    |---|
     O   |
    /|\  |
     |   |
@@ -100,9 +99,9 @@ def dibujar(palabra_secreta, lista_letras_usadas, intentos_invalidos):
     print(lista_letras_usadas)
     return palabra_oculta
 
-if __name__ == "__main__":
+#if __name__ == "__main__":
     # Probar la interfaz
-    palabra_secreta = "palabra"
-    lista_letras_usadas = ["a", "p", "l", "b", "r"]
-    dibujar(palabra_secreta, lista_letras_usadas, 3)
+ #   palabra_secreta = "palabra"
+  #  lista_letras_usadas = ["a", "p", "l", "b", "r"]
+   # dibujar(palabra_secreta, lista_letras_usadas, 3)
 

@@ -8,7 +8,7 @@ def leer_palabra_secreta():
       lista = list(csv.DictReader(csvfile))
       diccionario = random.choice(lista)
       palabra_aleatoria = diccionario['palabras']
-      print(palabra_aleatoria)
+      #print(palabra_aleatoria)
       return palabra_aleatoria 
 
 
